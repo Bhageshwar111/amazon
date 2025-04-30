@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+}
+.container{
+    display: flex;
+    height: 40px;
+    background-color: rgb(2, 3, 42);
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.locationbut{
+    display: flex;
+    background-color: rgb(2, 3, 42);
+    color: white;
+    border: 0px;
+}
+button:hover{
+    cursor: pointer;
+    border: 1px solid;
+    color: white;
+}
+.searchbox{
+    display: flex;
+    align-items: center;
+}
+.loginbutton{
+    background-color: rgb(2, 3, 42);
+    border: 0px;
+}
+.container2{
+    height: 30px;
+    background-color: rgb(48, 58, 73);
+    padding: 5px;
+}
+.lowerbutton{
+    background-color: rgb(48, 58, 73);
+    border: 0px;
+    color: white;
+}
+.bigbox{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 200px 10px;
+}
+.smallbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 470px;
+    width: 320px;
+    padding: 10px;
+}
+.sbimg{
+    height: 180px;
+    width: 130px;
+}
+.sbimg1{
+    height: 160px;
+    width: 120px;
+}
+.lowerbutton1{
+    border: 0px;
+    background-color: white;
+    font-size: small;
+}
+.lowerbuttonM{
+    border: 0px;
+    background-color: white;
+    font-size:medium;
+}
+.mainbox{
+    display: flex;
+    padding: 70px 30px;
+}
+.sidebox{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.sideimg{
+    height: 50px;
+    width: 40px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+.infobox{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
